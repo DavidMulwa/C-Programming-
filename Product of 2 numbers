@@ -1,0 +1,13 @@
+/*arithmetic operators product of 2 numbers*/
+#include<stdio.h>
+int main()
+{
+int a, b, product;
+printf("\n enter value of A:");
+scanf("%d",&a);
+printf("\n enter value of B:");
+scanf("%d",&b);
+product=a*b;
+printf("\n product =%d", product);
+return 0;
+}
