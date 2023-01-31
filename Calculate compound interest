@@ -1,0 +1,11 @@
+/*c program to calculate compound interest*/
+#include <stdio.h>
+int main()
+{
+float p,r,t,ci;
+printf("enter principle,rate and time:\n");
+scanf("%f%f%f",&p,&r,&t);
+ci=p*(1+r/100),t;
+printf("compound interest=%f",ci);
+return 0;
+}
