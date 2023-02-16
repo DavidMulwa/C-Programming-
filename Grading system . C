@@ -1,0 +1,21 @@
+//grading system for 3 subjects
+#include <stdio.h>
+
+int main() {
+float average,math,eng,kisw;
+printf ("enter marks for the 3 subjects:\n");
+scanf("%f%f%f",&math,&eng,&kisw);
+average=(math+eng+kisw)/3;
+if(average>=70 && average<=100)
+{printf ("A");}
+else if(average>=60 && average<=69)
+{printf("B");}
+else if(average>=50 && average<=59)
+{printf("C");}
+else if(average>=40 && average<=49)
+{printf("D");}
+else if(average>=0 && average<=39) 
+{printf("E(fail)");}
+
+    return 0;
+}
