@@ -1,0 +1,12 @@
+//program to print 1 to 100 in reverse 
+#include<stdio.h>
+int main ()
+{
+  int n=100;
+  while(n>=1)  
+  {printf ("%d ",n);
+  n=n-1;
+   }
+    printf("\n for loop body finished");
+    return 0;
+}
