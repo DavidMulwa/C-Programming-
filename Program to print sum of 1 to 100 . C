@@ -1,0 +1,13 @@
+//program to print sum of 1 to 100  
+#include<stdio.h>
+int main ()
+{
+  int n=100,sum=0;
+  while(n>=1)  
+  {printf ("%d ",n);
+  n=n-1;
+  sum=sum+n;
+   }
+   printf("\n the sum is %d ",sum);
+    return 0;
+}
