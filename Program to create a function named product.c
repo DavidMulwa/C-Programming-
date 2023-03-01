@@ -1,5 +1,5 @@
 //program to create a function named product 
-include<stdio.h>
+#include<stdio.h>
 int product(int,int);
 int product(int,int);
 int main() {
