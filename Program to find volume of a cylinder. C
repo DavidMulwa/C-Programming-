@@ -1,0 +1,19 @@
+//Program to find volume of a cylinder 
+include <stdio.h>
+float cyclidervolume(float,float);
+float cylindervol(float,float);
+int main(int argc, char** argv)
+{
+	float cylindervolume;
+	float cyradius,cyheight;
+	printf("enter the radius of  cylinder ");
+	printf("enter the height of a cylinder ");
+	scanf("%f %f",&cyradius,&cyheight);
+	cylindervolume=cylindervol(cyradius,cyheight);
+	printf("the volume of cylinder:%.2f\n",cylindervolume);
+	return 0;
+}
+float cylindervol(float radius,float height){
+	return 3.142*radius*radius*height;
+
+}
