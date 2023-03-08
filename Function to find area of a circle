@@ -15,6 +15,6 @@ int main()
 int area(int a)
 {
     int area;
-    area=pi*a;
+    area=pi*a*a;
     return area;
 }
